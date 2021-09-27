@@ -1,0 +1,12 @@
+CREATE DATABASE EX
+
+CREATE TABLE Agenda (
+
+	id_Agenda INT PRIMARY KEY IDENTITY (1,1),
+	Nome VARCHAR(50) NOT NULL,
+	Fone VARCHAR(8) NOT NULL,
+	)
+
+	SELECT Fone  FROM Agenda WHERE Nome like 'Tilo'
+
+SELECT * FROM Agenda
